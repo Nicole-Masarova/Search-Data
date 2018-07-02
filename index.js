@@ -1,7 +1,1 @@
-fetch('http://seasoned.atlassian.json')
-  .then(function(response) {
-    return response.json();
-  })
-  .then(function(myJson) {
-    console.log(myJson);
-  });
+GET https://seasoned.atlassian.net/rest/agile/1.0/board/21/sprint/62
