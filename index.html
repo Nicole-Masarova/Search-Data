@@ -15,7 +15,7 @@
 	<script>
 		let x=searchInput.text;
 
-		fetch.set('https://seasoned.atlassian.net/rest/agile/1.0/board/21/sprint/62').then((data){
+		fetch.set('https://seasoned.atlassian.net/rest/agile/1.0').then((data){
 			goTo(('https://seasoned.atlassian.net/rest/agile/1.0/board/').append(x));
 		});
 
