@@ -7,13 +7,18 @@
 <body>
 	<h1>Please make sure that you are logged into JIRA through Seasoned before using this tool.</h1>
 	<form type="submit" name="FormToSubmit">
-		<input width="400px" placeholder="Type in name of project..." type="search" id="searchInput" onsearch="searchInput">
+		<input width="400px" placeholder="Type in name of project..." type="search" id="searchInput">
 		<button style="font-family: sans-serif;">
 			<i class="fa fa-search"></i>
 		</button>
 	</form>
 	<script>
-		fetch.set('https://seasoned.atlassian.net/rest/agile/1.0/board/21/sprint/62')
+		let x=searchInput.text;
+
+		fetch.set('https://seasoned.atlassian.net/rest/agile/1.0/board/21/sprint/62').then((data){
+			goTo(('https://seasoned.atlassian.net/rest/agile/1.0/board/').append(x));
+		});
+
 	</script>
 </body>
 </html>
