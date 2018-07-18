@@ -6,8 +6,14 @@
 </head>
 <body>
 	<h1>Please make sure that you are logged into JIRA through Seasoned before using this tool.</h1>
-	<form type="submit" name="FormToSubmit">
-		<input width="400px" placeholder="Type in id of project..." type="search" id="searchInput">
+	<form type="submit" id="ProjectNameForm">
+		<input width="400px" placeholder="Type in name of project..." type="search" id="ProjectNameInput">
+		<button style="font-family: sans-serif;">
+			<i class="fa fa-search"></i>
+		</button>
+	</form>
+	<form type="submit" id="BoardNameForm">
+		<input width="400px" placeholder="Type in name of board the project is on..." type="search" id="BoardNameInput">
 		<button style="font-family: sans-serif;">
 			<i class="fa fa-search"></i>
 		</button>
@@ -19,5 +25,6 @@
 			goTo(('https://seasoned.atlassian.net/rest/agile/1.0/board/').append(x));
 		});
 	</script>
- --></body>
+																		 -->
+</body>
 </html>
