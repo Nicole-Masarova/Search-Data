@@ -200,105 +200,105 @@
 				"originalEstimateSeconds": 28800,
 				"remainingEstimateSeconds": 28800
 			}
-}
-},
-{
-"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-"id": "45676",
-"self": "https://seasoned.atlassian.net/rest/agile/1.0/issue/45676",
-"key": "SS-2141",
-"fields": {
-"timetracking": {
-"originalEstimate": "8h",
-"remainingEstimate": "8h",
-"originalEstimateSeconds": 28800,
-"remainingEstimateSeconds": 28800
-}
-}
-},
-{
-"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-"id": "45697",
-"self": "https://seasoned.atlassian.net/rest/agile/1.0/issue/45697",
-"key": "SS-2155",
-"fields": {
-"timetracking": {
-"originalEstimate": "13h",
-"remainingEstimate": "13h",
-"originalEstimateSeconds": 46800,
-"remainingEstimateSeconds": 46800
-}
-}
-},
-{
-"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-"id": "45674",
-"self": "https://seasoned.atlassian.net/rest/agile/1.0/issue/45674",
-"key": "SS-2139",
-"fields": {
-"timetracking": {
-"originalEstimate": "1h",
-"remainingEstimate": "1h",
-"originalEstimateSeconds": 3600,
-"remainingEstimateSeconds": 3600
-}
-}
-},
-{
-"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-"id": "45677",
-"self": "https://seasoned.atlassian.net/rest/agile/1.0/issue/45677",
-"key": "SS-2142",
-"fields": {
-"timetracking": {
-"originalEstimate": "5h",
-"remainingEstimate": "5h",
-"originalEstimateSeconds": 18000,
-"remainingEstimateSeconds": 18000
-}
-}
-},
-{
-"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-"id": "45698",
-"self": "https://seasoned.atlassian.net/rest/agile/1.0/issue/45698",
-"key": "SS-2156",
-"fields": {
-"timetracking": {
-"originalEstimate": "8h",
-"remainingEstimate": "8h",
-"originalEstimateSeconds": 28800,
-"remainingEstimateSeconds": 28800
-}
-}
-},
-{
-"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-"id": "44767",
-"self": "https://seasoned.atlassian.net/rest/agile/1.0/issue/44767",
-"key": "SS-1366",
-"fields": {
-"timetracking": {
-"originalEstimate": "5h",
-"remainingEstimate": "5h",
-"originalEstimateSeconds": 18000,
-"remainingEstimateSeconds": 18000
-}
-}
-},
-{
-"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-"id": "45675",
-"self": "https://seasoned.atlassian.net/rest/agile/1.0/issue/45675",
-"key": "SS-2140",
-"fields": {
-"timetracking": {
-"originalEstimate": "1h",
-"remainingEstimate": "1h",
-"originalEstimateSeconds": 3600,
-"remainingEstimateSeconds": 3600
-}
-}
-}
+		}
+	},
+	{
+		"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+		"id": "45676",
+		"self": "https://seasoned.atlassian.net/rest/agile/1.0/issue/45676",
+		"key": "SS-2141",
+		"fields": {
+			"timetracking": {
+				"originalEstimate": "8h",
+				"remainingEstimate": "8h",
+				"originalEstimateSeconds": 28800,
+				"remainingEstimateSeconds": 28800
+			}
+		}
+	},
+	{
+		"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+		"id": "45697",
+		"self": "https://seasoned.atlassian.net/rest/agile/1.0/issue/45697",
+		"key": "SS-2155",
+		"fields": {
+			"timetracking": {
+				"originalEstimate": "13h",
+				"remainingEstimate": "13h",
+				"originalEstimateSeconds": 46800,
+				"remainingEstimateSeconds": 46800
+			}
+		}
+	},
+	{
+		"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+		"id": "45674",
+		"self": "https://seasoned.atlassian.net/rest/agile/1.0/issue/45674",
+		"key": "SS-2139",
+		"fields": {
+			"timetracking": {
+				"originalEstimate": "1h",
+				"remainingEstimate": "1h",
+				"originalEstimateSeconds": 3600,
+				"remainingEstimateSeconds": 3600
+			}
+		}
+	},
+	{
+		"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+		"id": "45677",
+		"self": "https://seasoned.atlassian.net/rest/agile/1.0/issue/45677",
+		"key": "SS-2142",
+		"fields": {
+			"timetracking": {
+				"originalEstimate": "5h",
+				"remainingEstimate": "5h",
+				"originalEstimateSeconds": 18000,
+				"remainingEstimateSeconds": 18000
+			}
+		}
+	},
+	{
+		"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+		"id": "45698",
+		"self": "https://seasoned.atlassian.net/rest/agile/1.0/issue/45698",
+		"key": "SS-2156",
+		"fields": {
+			"timetracking": {
+				"originalEstimate": "8h",
+				"remainingEstimate": "8h",
+				"originalEstimateSeconds": 28800,
+				"remainingEstimateSeconds": 28800
+			}
+		}
+	},
+	{
+		"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+		"id": "44767",
+		"self": "https://seasoned.atlassian.net/rest/agile/1.0/issue/44767",
+		"key": "SS-1366",
+		"fields": {
+			"timetracking": {
+				"originalEstimate": "5h",
+				"remainingEstimate": "5h",
+				"originalEstimateSeconds": 18000,
+				"remainingEstimateSeconds": 18000
+			}
+		}
+	},
+	{
+		"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+		"id": "45675",
+		"self": "https://seasoned.atlassian.net/rest/agile/1.0/issue/45675",
+		"key": "SS-2140",
+		"fields": {
+			"timetracking": {
+				"originalEstimate": "1h",
+				"remainingEstimate": "1h",
+				"originalEstimateSeconds": 3600,
+				"remainingEstimateSeconds": 3600
+			}
+		}
+	}
 ]
 }
