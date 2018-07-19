@@ -76,5 +76,5 @@ function enterDataIntoTable() {
 	} else {
 		function extractString; //not sure i this shuld be here becauser I htink that this should be added into the checkAndStore look
 	};
-	};
+	}; // what is wrong here???
 };
