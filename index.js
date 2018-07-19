@@ -8,31 +8,62 @@
 //   window.alert('Sorry. An error was thrown.')
 // });
 
-
+let dataResponse;
 // ATTEMPT 2
-// fetch('data.json').then(response => {
-//   return response.json();
-// }).then(data => {
-  
-//   console.log(data);
-// }).catch(err => {
-//   window.alert('Sorry. An error was thrown.')
-// });
+fetch('data.json').then(response => {
+  return response.json();
+}).then(data => {
+  console.log(data);
+  dataResponse = data.issues;
+  return dataResponse;
+}).catch(err => {
+  window.alert('Sorry. An error was thrown.')
+});
 
-get data.json .... //get the data file
+//get the data file
 
 // FUNCTION
 
-let x = document.getElementById("ProjectNameInput");
-let y = document.getElementById("BoardNameInput");
-let timetracking = 'fields.timetracking';
+let projectNameInput = document.getElementById("ProjectNameInput"); 
+let boardNameInput = document.getElementById("BoardNameInput");
+let timeEstimate = 'fields.timeEstimate';
 
-let onlyTimeTrackingArray = [];
+// let onlyTimeTrackingArray = [];
 
-for(i=0, i<data.length, i++){
-	if x === 'issues.key' then(){
-			onlyTimeTrackingArray.push(data[i].fields.timetracking);
+
+// for(i=0, i<dataResponse.length, i++){
+// 	if projectNameInput === 'issues.key' then(){
+// 		//will get id when name matches
+// 			onlyTimeTrackingArray.push(data[i].fields.timetracking);
+// 	};
+// // };
+
+// return onlyTimeTrackingArray;
+
+var tableHiringFeatures = document.createElement("TABLE");
+for (i = 0; i < dataResponse.length; i++) {
+        createCell(row.insertCell(i), i, 'row');
+};
+
+let nameOfSprint;
+
+function enterDataIntoTable() {
+	if() then{
+		//insert code for if the status is ACTIVE
+		if onlyTimeTrackingArray.fields.timeestimate === 0 then {
+			for (var i = 0; i < dataResponse.length; i++) {
+				nextItem = array[i+1];
+			};
+		} else if {
+			for (var i = 0; i < dataResponse.length; i++) {
+				nextItem = array[i+1];
+			};
+		} else {
+
+		};
+		//insert code for if it is not ACTIVE
 	};
 };
 
-return onlyTimeTrackingArray;
+
+
