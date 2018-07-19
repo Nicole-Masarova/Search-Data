@@ -45,25 +45,36 @@ for (i = 0; i < dataResponse.length; i++) {
         createCell(row.insertCell(i), i, 'row');
 };
 
-let nameOfSprint;
+let str; //this is the variable that defines the string that has been pulled from between "name=" and ",goal="
 
-function enterDataIntoTable() {
-	if() then{
-		//insert code for if the status is ACTIVE
-		if onlyTimeTrackingArray.fields.timeestimate === 0 then {
-			for (var i = 0; i < dataResponse.length; i++) {
-				nextItem = array[i+1];
-			};
-		} else if {
-			for (var i = 0; i < dataResponse.length; i++) {
-				nextItem = array[i+1];
-			};
-		} else {
 
+function extractString(){
+	var str = dataResponse.fields.customfield_10115
+	str.split('name=').pop().split(',goal=').shift();
+	return str;
+}
+
+let nameOfSprint = []; //ths is the array that will hold the strings that were pulled (the names of the sprints)
+ 
+function checkAndStore(){
+	for (i=0, i < dataResponse.length; i++) {
+		extractString(str);
+		loop in nameOfSprint array 
+	}
+	// if(str)
+}
+
+function enterDataIntoTable() { 
+	if(onlyTimeTrackingArray.fields.timeestimate === 0) then {  
+		for (i=0, i < dataResponse.length; i++) {
+			nextItem = array[i+1];
 		};
-		//insert code for if it is not ACTIVE
+	} else if {
+		for (i=0, i < dataResponse.length; i++) {
+			nextItem = array[i+1];
+		};
+	} else {
+		function extractString; //not sure i this shuld be here becauser I htink that this should be added into the checkAndStore look
+	};
 	};
 };
-
-
-
